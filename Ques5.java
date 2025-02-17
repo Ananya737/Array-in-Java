@@ -1,5 +1,5 @@
 
-//Missing numbers in an array:
+//Missing 1 number in an array:
 
 
 import java.util.Scanner;
