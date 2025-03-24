@@ -1,7 +1,7 @@
 public class FiboLeetcode{
-    public static void main(String args[]){
-        int n=5;
-          int first=0;
+   
+   public static int leet(int n){
+      int first=0;
         int sec=1;
         int next=0;
         for(int i=0;i<n;i++){
@@ -10,6 +10,14 @@ public class FiboLeetcode{
             first=sec;
             sec=next;      
         }
-        System.out.println(first);
+     return first;   
+
+   }
+   
+
+
+    public static void main(String args[]){
+       System.out.println(leet(2));
+        
     }
 }
