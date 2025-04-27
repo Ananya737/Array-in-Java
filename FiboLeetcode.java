@@ -14,10 +14,8 @@ public class FiboLeetcode{
 
    }
    
-
-
     public static void main(String args[]){
-       System.out.println(leet(2));
+    System.out.println(leet(2));
         
     }
 }
